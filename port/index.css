@@ -1,0 +1,48 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    background: #f4f4f4;
+    border-bottom: 1px solid #ccc;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
